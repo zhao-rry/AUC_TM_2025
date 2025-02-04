@@ -28,13 +28,13 @@ For Windows, see [here](https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_
 
 #### The best way - Cloud
 
-1. The first time, make a Github account and fork the repository to your Github account: go to https://github.com/bloemj/AUC_TM_2024 and click Fork
+1. The first time, make a Github account and fork the repository to your Github account: go to https://github.com/bloemj/AUC_TM_2025 and click Fork
 2. Get updates to the code before every lab: In your fork on the Github website, click "Fetch upstream"
 3. Launch notebooks by going to your Google Colab: https://colab.research.google.com/ and loading them using the "Open Notebook" window. Enter the GitHub URL of the fork of the course materials in your own GitHub account to be able to save your changes. 
 
 #### The best way - Offline
 
-1. The first time, clone the repository locally using `git clone git@github.com:bloemj/AUC_TM_2024.git`.
+1. The first time, clone the repository locally using `git clone git@github.com:bloemj/AUC_TM_2025.git`.
 2. Keep getting updates to the code before every lab by going to your local repository directory (e.g., `cd PATH_TO_REPO`) and `git pull`. This will pull all remote changes to local, and update your repository.
 
 #### The easy way - 1
@@ -49,10 +49,10 @@ Just download the repository code before every lab, by clicking on `Clone or dow
 
 ### Running Python on your own machine: Conda
 
-1. Install conda using the [Anaconda distribution](https://www.anaconda.com/distribution/), remember to pick Python 3.7 and the OS you need. Get the graphical installer.
+1. Install conda using the [Anaconda distribution](https://www.anaconda.com/distribution/), remember to pick Python 3.8 and the OS you need. Get the graphical installer.
 2. After installation, you will have an app called **Anaconda Navigator** installed. You can create and manage enviromnents and use jupyter notebooks from it, without using the terminal, mostly.
 3. If you use the terminal, remember to relunch all your terminal windows after the installation of conda. Then refer to [this guide](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). The msot basic commands are:
-    - `conda create -n myenv python=3.7 anaconda` which will create an environment named `myenv` and install the libraries in the anaconda distribution into it (handy to have most of the popular stuff at the ready).
+    - `conda create -n myenv python=3.8 anaconda` which will create an environment named `myenv` and install the libraries in the anaconda distribution into it (handy to have most of the popular stuff at the ready).
     - `conda activate myenv`.
     - `conda deactivate`.
     - `conda remove --name myenv --all` to remove an environment and all its packages.

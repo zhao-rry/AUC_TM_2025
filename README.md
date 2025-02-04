@@ -1,7 +1,7 @@
-# Text Mining 2023/24
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bloemj/AUC_TM_2023/main)
+# Text Mining 2024/25
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bloemj/AUC_TM_2025/main)
 
-Amsterdam University College -- Text Mining -- Winter/Spring 2024.
+Amsterdam University College -- Text Mining -- Spring 2025.
 
 ## Contents
 
@@ -9,18 +9,18 @@ You can use the [Hello World](notebooks/0_HelloWorld.ipynb) notebooks to check t
 
 | Week         | Topic           | Materials  |
 | ------------- |-------------| -----:|
-| 1      | Introduction and Python refresher | <a href='slides/AUC_1_Introduction.pdf'>slides</a> + notebooks <a href='notebooks/1_Fundamentals.ipynb'>1</a>, <a href='notebooks/1_MoreFundamentals.ipynb'>2</a>, <a href='notebooks/1_EvenMoreFundamentals.ipynb'>3</a>, <a href='notebooks/1_RegularExpressions.ipynb'>4</a>, <a href='notebooks/1_ScientificProgramming.ipynb'>5</a> |
-| 2      | Introduction to NLP and NLP pipelines | <a href='slides/AUC_2_NLP_Foundations.pdf'>slides</a> + <a href='notebooks/2_NLP_pipelines.ipynb'>notebook</a> |
-| 3      | Language modelling  | <a href='slides/AUC_3_language_models.pdf'>slides</a> + notebooks <a href='notebooks/3_Distributions_in_text.ipynb'>1</a>, <a href='notebooks/3_WordNet.ipynb'>2</a> |
-| 4      | Vector space semantics | <a href='slides/AUC_4_vectorSpaceSemantics.pdf'>slides</a> + <a href='notebooks/4_Vector_Semantics.ipynb'>notebook</a> |
-| 5      | Word embeddings | <a href='slides/AUC_5_Word_Embeddings.pdf'>slides</a> + <a href='notebooks/5_WordEmbeddings.ipynb'>notebook</a> |
-| 6      | Machine learning fundamentals  | <a href='slides/AUC_6_ML.pdf'>slides</a> + <a href='notebooks/6_ML.ipynb'>notebook</a> |
-| 7      | Text classification  | <a href='slides/AUC_7_text_classification.pdf'>slides</a> + <a href='notebooks/7_1_Classification.ipynb'>notebook (Scikit-learn)</a>, <a href='notebooks/7_2_PyTorch.ipynb'>notebook (PyTorch)</a> |
-| 8      | RNNs and NER  | <a href='slides/AUC_8_RNNs.pdf'>slides</a> + <a href='notebooks/8_1_NER.ipynb'>notebook</a> |
-| 9      | Recommender systems  | <a href='slides/AUC_9_Recommender_Systems.pdf'>slides</a> + <a href='notebooks/10_Recommender_Systems.ipynb'>notebook</a> |
-| 10      | Creating annotated corpora, Web scraping and APIs  | <a href='slides/AUC_10_Creating_annotated_corpora.pdf'>slides</a>, <a href='notebooks/9_WebScraping_APIs.ipynb'>notebook</a> |
-| 11      | Sentiment analysis  | <a href='slides/AUC_11_Sentiment_Analysis.pdf'>slides</a> + <a href='notebooks/11_Sentiment_Analysis.ipynb'>notebook</a> |
-| 12      | Clustering and topic modelling  | <a href='slides/AUC_12_Clustering_TM.pdf'>slides</a> + <a href='notebooks/12_Clustering_TopicModelling.ipynb'>notebook</a> |
+| 1      | Introduction and Python refresher | <a href=''>slides</a> + notebooks <a href='notebooks/1_Fundamentals.ipynb'>1</a>, <a href='notebooks/1_MoreFundamentals.ipynb'>2</a>, <a href='notebooks/1_EvenMoreFundamentals.ipynb'>3</a>, <a href='notebooks/1_RegularExpressions.ipynb'>4</a>, <a href='notebooks/1_ScientificProgramming.ipynb'>5</a> |
+| 2      | Introduction to NLP and NLP pipelines | <a href=''>slides</a> + <a href='notebooks/2_NLP_pipelines.ipynb'>notebook</a> |
+| 3      | Language modelling  | <a href=''>slides</a> + notebooks <a href='notebooks/3_Distributions_in_text.ipynb'>1</a>, <a href='notebooks/3_WordNet.ipynb'>2</a> |
+| 4      | Vector space semantics | <a href=''>slides</a> + <a href='notebooks/4_Vector_Semantics.ipynb'>notebook</a> |
+| 5      | Word embeddings | <a href=''>slides</a> + <a href='notebooks/5_WordEmbeddings.ipynb'>notebook</a> |
+| 6      | Machine learning fundamentals  | <a href=''>slides</a> + <a href='notebooks/6_ML.ipynb'>notebook</a> |
+| 7      | Text classification  | <a href=''>slides</a> + <a href='notebooks/7_1_Classification.ipynb'>notebook (Scikit-learn)</a>, <a href='notebooks/7_2_PyTorch.ipynb'>notebook (PyTorch)</a> |
+| 8      | RNNs and NER  | <a href=''>slides</a> + <a href='notebooks/8_1_NER.ipynb'>notebook</a> |
+| 9      | Recommender systems  | <a href=''>slides</a> + <a href='notebooks/10_Recommender_Systems.ipynb'>notebook</a> |
+| 10      | Creating annotated corpora, Web scraping and APIs  | <a href=''>slides</a>, <a href='notebooks/9_WebScraping_APIs.ipynb'>notebook</a> |
+| 11      | Sentiment analysis  | <a href=''>slides</a> + <a href='notebooks/11_Sentiment_Analysis.ipynb'>notebook</a> |
+| 12      | Clustering and topic modelling  | <a href=''>slides</a> + <a href='notebooks/12_Clustering_TopicModelling.ipynb'>notebook</a> |
 | 13      | XAI and Bias in Word Embeddings  | Selected contents from [this course](https://github.com/Giovanni1085/UvA_AIforSociety_2022) - slides |
 | 14      | Fairness and Text Mining for Humanities  | slides |
 
@@ -60,9 +60,9 @@ See the [projects folder](/projects) for info.
 
 ### Running on your own system
 
-1. Clone the repository locally: `git clone git@github.com:bloemj/AUC_TM_2024.git`
+1. Clone the repository locally: `git clone git@github.com:bloemj/AUC_TM_2025.git`
 2. Get updates (from time to time): `git pull`
-3. Create a conda environment: `conda create -n myenv python=3.7 anaconda` (where `myenv` is the envirnoment name)
+3. Create a conda environment: `conda create -n myenv python=3.8 anaconda` (where `myenv` is the envirnoment name)
 4. Activate it: `conda activate myenv`
 5. Install packages (see the `requirements.txt` file), e.g. `conda install pandas`
 6. Launch a Jupyter notebook: `jupyter notebook`

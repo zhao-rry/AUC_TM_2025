@@ -36,9 +36,9 @@ You can use the [Hello World](notebooks/0_HelloWorld.ipynb) notebooks to check t
 #### Tutorials
 
 * [SpaCy 101](https://spacy.io/usage/spacy-101).
-* [scikit-learn tutorials](https://scikit-learn.org/stable/tutorial/index.html).
+* [scikit-learn tutorials](https://scikit-learn.org/stable/).
 * [PyTorch 60m blitz](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html).
-* [PyTorch text classification with torchtext](https://pytorch.org/tutorials/beginner/text_sentiment_ngrams_tutorial.html).
+* [PyTorch text classification with torchtext](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/text_sentiment_ngrams_tutorial.ipynb).
 
 ## Group projects
 
@@ -69,8 +69,8 @@ See the [projects folder](/projects) for info.
 
 * [More on conda enviroments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 * [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
-* [Getting started with Jupyter notebooks](https://medium.com/codingthesmartway-com-blog/getting-started-with-jupyter-notebook-for-python-4e7082bd5d46)
-* [On using git and GitHub for version control](https://alan-turing-institute.github.io/rsd-engineeringcourse/ch02git)
+* [Getting started with Jupyter notebooks using JupyterLab](https://realpython.com/using-jupyterlab/)
+* [On using git and GitHub for version control](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
 Alternatively, use [Binder](https://mybinder.org) (link above).
 

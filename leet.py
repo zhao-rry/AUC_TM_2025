@@ -12,3 +12,15 @@ def to_leet(text: str) -> str:
     return pattern.sub(lambda m: leet_dict[m.group(0)], text)
 
 print(to_leet(text))
+
+''' --- not leet anymore, search proper nouns --- '''
+
+text_cap = "Hi! My name is Will and I am from London. I currently study at British University College. Here, I am currently taking a course called Mine Texting along with my friends. For example, Grinch and Santa Claus are both in this course."
+
+# define proper nouns as:
+# group of words starting with capital letters, not directly proceeding a punctuation mark, and not the word "I"
+
+# print(re.findall(r"([^\.\?!:] (([A-Z]\w+ )+))", text_cap))
+# initial solution: fails to capture words ending with punctuation, also lots of unnecessary groupings -> instead, use ?: to avoid capturing and use * instead of +
+
+print(re.findall(r"[^\.\?\!:] ([A-Z]\w+(?: [A-Z]\w+)*)", text_cap))

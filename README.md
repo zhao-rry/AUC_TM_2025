@@ -62,7 +62,7 @@ See the [projects folder](/projects) for info.
 
 1. Clone the repository locally: `git clone git@github.com:bloemj/AUC_TM_2025.git`
 2. Get updates (from time to time): `git pull`
-3. To push to your own Github: `git push'. To push changes, you may have to set up SSH key authentication for your Github account: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+3. To push to your own Github: `git push'. To push changes from your laptop to your Github, you may have to set up SSH key authentication for your Github account, as password authentication is no longer supported: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 4. Create a conda environment: `conda create -n myenv python=3.8 anaconda` (where `myenv` is the envirnoment name)
 5. Activate it: `conda activate myenv`
 6. Install packages (see the `requirements.txt` file), e.g. `conda install pandas`

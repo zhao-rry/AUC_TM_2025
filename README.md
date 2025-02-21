@@ -60,13 +60,14 @@ See the [projects folder](/projects) for info.
 
 ### Running on your own system
 
-1. Clone the repository locally: `git clone git@github.com:bloemj/AUC_TM_2025.git`
-2. Get updates (from time to time): `git pull`
-3. To push to your own Github: `git push'. To push changes from your laptop to your Github, you may have to set up SSH key authentication for your Github account, as password authentication is no longer supported: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-4. Create a conda environment: `conda create -n myenv python=3.8 anaconda` (where `myenv` is the envirnoment name)
-5. Activate it: `conda activate myenv`
-6. Install packages (see the `requirements.txt` file), e.g. `conda install pandas`
-7. Launch a Jupyter notebook: `jupyter notebook`
+1. Clone the repository locally: `git clone git@github.com:bloemj/AUC_TM_2025.git`. Alternatively, clone your own fork of the repository locally.
+2. If you cloned your own fork: Get updates from time to time by clicking "Fetch upstream" in your own fork on the Github website.
+3. Get updates (from time to time): `git pull`
+4. To push to your own Github: `git push'. To push changes from your laptop to your Github, you may have to set up SSH key authentication for your Github account, as password authentication is no longer supported: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+5. Create a conda environment: `conda create -n myenv python=3.8 anaconda` (where `myenv` is the envirnoment name)
+6. Activate it: `conda activate myenv`
+7. Install packages (see the `requirements.txt` file), e.g. `conda install pandas`
+8. Launch a Jupyter notebook: `jupyter notebook`
 
 * [More on conda enviroments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 * [Conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)

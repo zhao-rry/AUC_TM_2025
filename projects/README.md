@@ -9,8 +9,8 @@ The project is the main grading item of the course. It will allow you to choose 
 ## Timeline
 
 * **February 7** Guidelines and default project ideas out. Group formation opens on Canvas (you can self-organize, groups are capped to 3). Proposals for custom projects are encouraged.
-* **March 31** Groups are formed, time to decide on a project idea, if you have not already. Discussions (with me) on how to structure your project should start ASAP.
-* **April 20** Project update 0: repository `README` up. You need to submit a link to your repo containing the populated `README` file. This file should contain a detailed project plan, including: research question, dataset, methods, milestones, proposed division of work. Please use the [repository README template](README_template.md).
+* **April 4** Groups are formed, time to decide on a project idea, if you have not already. Discussions (with me) on how to structure your project should start ASAP.
+* **April 11** Project update 0: repository `README` up. You need to submit a link to your repo containing the populated `README` file. This file should contain a detailed project plan, including: research question, dataset, methods, milestones, proposed division of work. Please use the [repository README template](README_template.md).
 * **May 2** Project update 1 (see below for guidelines).
 * **May 15** Project update 2 (see below for guidelines).
 * **May 28/31** In-class presentations: 10+10 minutes (presentation + questions), schedule to be published in advance.
